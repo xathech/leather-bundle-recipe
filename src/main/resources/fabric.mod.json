@@ -8,8 +8,8 @@
 		"Xathech"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://xathech.github.io/",
+		"sources": "https://github.com/xathech/leather-bundle-recipe"
 	},
 	"license": "MIT",
 	"icon": "assets/leather-bundle-recipe/icon.png",
