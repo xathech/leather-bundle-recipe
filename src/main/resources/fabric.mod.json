@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "leather-bundle-recipe",
+	"version": "${version}",
+	"name": "Leather Bundle Recipe",
+	"description": "This mod adds the missing recipe for the bundle with the same items as the 1.21.2 version",
+	"authors": [
+		"Xathech"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/leather-bundle-recipe/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.xathech.leatherbundle.LeatherBundleRecipe"
+		],
+		"fabric-datagen": [
+			"io.github.xathech.leatherbundle.datagen.LeatherBundleRecipeDataGenerator"
+		],
+		"client": [
+			"io.github.xathech.leatherbundle.LeatherBundleRecipeClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
